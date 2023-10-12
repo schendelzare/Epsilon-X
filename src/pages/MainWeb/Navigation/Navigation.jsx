@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import { useIsVisible } from "../useVisible";
 import logo from "../../../assets/myAssets/epsilon2.png";
-import { IoMdArrowDropdownCircle, IoMdArrowDropdown } from "react-icons/Io";
+import { IoMdArrowDropdownCircle, IoMdArrowDropdown } from "react-icons/io";
 
 import { Link } from "react-scroll";
 
