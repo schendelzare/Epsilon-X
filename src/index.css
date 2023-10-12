@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Orbitron:wght@600&family=Outfit:wght@300&family=Permanent+Marker&family=Poppins&family=Raleway:ital,wght@0,400;1,300&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.m {
+  @apply absolute  z-50 bg-fixed bg-center bg-contain bg-no-repeat;
+}
+.main {
+  @apply z-50;
+}
+.navs {
+  @apply text-black absolute md:p-5 top-0 right-0 left-0  bg-white md:bg-transparent md:hover:bg-black/30 backdrop-blur-sm hover:ease-in duration-200 z-50;
+}
+.nava {
+  @apply text-xs lg:text-sm text-gray-900 font-extrabold cursor-pointer  ease-in-out duration-0;
+}
+.navam {
+  @apply px-6 py-3 hover:scale-105 m-auto text-start border-b-2;
+}
+.a {
+  @apply font-bold text-white text-sm text-start cursor-pointer;
+}
+.h1m {
+  @apply text-base md:text-xl  lg:my-10 font-medium text-center leading-snug   p-4 rounded-xl;
+}
+
+.h1 {
+  @apply text-2xl md:text-4xl   font-extrabold text-center text-black;
+}
+.h1p {
+  @apply text-2xl md:text-4xl  font-extrabold text-center font-permanent;
+}
+.headerlogo {
+  @apply rounded-full p-6  w-[500px] m-auto;
+}
+.logo {
+  @apply w-96  m-auto  rounded-full;
+}
+
+.btna {
+  @apply bg-[#33cccc] w-[350px] p-5 m-auto mb-10 active:scale-95 hover:bg-[#FFD700] text-white  font-extrabold text-2xl rounded-lg;
+}
+
+.button {
+  @apply bg-[#33cccc]  p-5 my-10 active:scale-95 text-white  hover:text-white  rounded-lg font-semibold animate-bounce animate-infinite;
+}
+.section1 {
+  @apply text-black py-40 text-center flex  md:py-60 bg-my-bg  bg-center bg-contain bg-no-repeat z-20;
+}
+.px {
+  @apply px-2 sm:px-24 2xl:px-[260px] m-auto;
+}
+.section {
+  @apply text-black  text-center sm:flex md:py-60  m-auto;
+}
+.sectionallo {
+  @apply text-black text-center py-20 md:py-80;
+}
+.sectionm {
+  @apply text-white text-center flex py-40 md:py-60;
+}
+.sectiony {
+  @apply text-black  text-center sm:flex py-40 flex flex-col;
+}
+.sectionpre {
+  @apply text-black  text-center sm:flex py-40;
+}
+.sectionf {
+  @apply text-center mt-40 mx-auto w-auto;
+}
+
+.p {
+  @apply text-black text-justify font-semibold  tracking-tight mx-2 text-base p-2  md:p-10;
+}
+.pp {
+  @apply text-black text-justify  font-semibold tracking-tight mx-2 text-sm md:text-base;
+}
+
+.p2 {
+  @apply text-black text-center font-extrabold tracking-tight mx-2 text-sm md:text-lg;
+}
+.pn {
+  @apply text-black text-justify lg:text-center font-semibold tracking-tight  text-base md:text-lg max-w-lg mx-auto p-2;
+}
+
+.dd {
+  @apply ease-in-out;
+}
+.sl {
+  @apply text-sm justify-start text-black font-semibold p-2;
+}
+
+.navlist {
+  @apply flex align-middle text-center  my-auto mx-2;
+}
+.navul {
+  @apply gap-3 hidden md:flex;
+}
+
+.video {
+  @apply w-[500px] m-auto;
+}
+
+.sx {
+  @apply grid grid-cols-1 lg:grid-cols-2 gap-10;
+}
+.sv {
+  @apply flex flex-col gap-2 h-[500px]  m-auto;
+}
+.pre {
+  @apply m-auto h-[350px] bb bg-[#FFD700] pt-2 rounded-xl border-4 drop-shadow-xl;
+}
+.yl {
+  @apply bg-[#ffd900bd]  rounded-md drop-shadow-xl;
+}
+.bb {
+  @apply border border-black rounded-2xl drop-shadow-lg;
+}
+.bbl {
+  @apply border-t-2 border-r-2 border-b-2 rounded-r-xl border-black;
+}
+.bbr {
+  @apply border-t-2 border-l-2 border-b-2 rounded-l-xl border-black;
+}
+
+.fp {
+  @apply text-white font-semibold p-4 text-left;
+}
+.fl {
+  @apply text-white font-normal text-justify  px-4 py-2;
+}
+.ss {
+  @apply rounded-xl bg-white/30 backdrop-blur-sm;
+}
+.sgrid {
+  @apply grid grid-cols-1 lg:grid-cols-2 m-auto lg:p-16 gap-10;
+}
+.bdb {
+  @apply bg-[#33cccc] backdrop-blur-sm border-2 rounded-full;
+}
+.bdy {
+  @apply bg-red-700 backdrop-blur-sm border-2 rounded-full;
+}
+.bdw {
+  @apply bg-yellow-300 backdrop-blur-sm border-2 rounded-full;
+}
+.cardlogo {
+  @apply lg:mb-3  p-4 rounded-2xl border-b-2 shadow-xl;
+}
+.card {
+  @apply text-gray-500 bg-white backdrop-blur-sm  text-base font-medium p-5 lg:p-10 rounded-2xl m-auto text-justify;
+}
+.cardh3 {
+  @apply text-4xl font-bold  text-[#33cccc] text-center;
+}
